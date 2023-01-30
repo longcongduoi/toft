@@ -3,12 +3,8 @@ SET(toft_src
   ./storage/file/file.cpp
   ./storage/file/local_file.h
   ./storage/file/local_file.cpp
-  ./storage/file/uri_utils.cpp
   ./storage/file/mock_file.cpp
-  ./storage/file/mock_file.h
-  ./storage/file/hdfs_file.cpp
-  ./storage/seqfile/local_sequence_file_reader.cpp
-  ./storage/seqfile/local_sequence_file_writer.cpp)
+  ./storage/file/mock_file.h)
 
 SET(toft_other_src
   ./base/arena.cpp
@@ -107,7 +103,6 @@ SET(toft_other_src
   ./system/threading/thread_group.cpp
   ./system/threading/thread_pool.cpp
   ./system/threading/thread_types.cpp
-  ./system/time/timestamp.cpp
   ./system/time/clock.cpp
   ./system/time/date.cpp
   ./system/time/posix_time.cpp
