@@ -1,0 +1,2 @@
+#define _STD_HAS_TYPE_TRAITS
+#define _TR1_HAS_TYPE_TRAITS
